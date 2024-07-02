@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main class="Home">
+        <header class="header-background">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="header-content">
+                <img src="profile.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+                <h1>Hi, my name is Saurabh</h1>
+                <p>Web Developer | Designer | Frontend Developer</p>
+            </div>
+        </header>
+    </main>
+    <main>
+        <section id="about">
+            <h2>~ About Me ~</h2>
+            <span data-testid="slackDisplayName">
+                <h3>Saurabh Kumar</h3>
+            </span>
+            <span data-testid="slackEmail">
+                <h3>Itssaurabhz11@gmail.com</h3>
+            </span>
+
+            <p>Hi, I'm Saurabh, a passionate web developer with a knack for creating dynamic and responsive websites.
+                With a background in computer science and a deep love for coding, I've honed my skills in HTML, CSS,
+                JavaScript, and various web development frameworks. My journey in web development started when I
+                realized the immense potential of the web in solving real-world problems and connecting people globally.
+            </p>
+            <p>Over the past few years, I've worked on numerous projects ranging from small business websites to complex
+                web applications. My expertise lies in developing clean, efficient, and scalable code that ensures a
+                seamless user experience. I enjoy tackling new challenges and constantly strive to learn and adapt to
+                the ever-evolving tech landscape.</p>
+            <p>In addition to my technical skills, I value effective communication, teamwork, and a user-centric
+                approach to development. I believe that great websites are built not just with code, but with a deep
+                understanding of the users they serve.</p>
+            <p>When I'm not coding, you can find me exploring the latest tech trends, contributing to open source
+                projects, or enjoying a good book.</p>
+            <p>Let's create something amazing together! :</p>
+            <section class="time-info">
+                <h2>Current Date and Time</h2>
+                <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+                <p>Current Day of the Week: <span data-testid="currentDay"></span></p>
+            </section>
+        </section>
+        <section id="portfolio">
+            <h2>~ My Tech Goals for the Next 2 Years ~</h2>
+            <ul>
+                <h3>
+                    <li>Goal 1: Become proficient in React.js</li>
+                    <li>Goal 2: Build and deploy full-stack applications</li>
+                    <li>Goal 3: Contribute to open source projects</li>
+                    <li>Goal 4: Master advanced JavaScript concepts</li>
+                    <li>Goal 5: Get certified in cloud technologies</li>
+                </h3>
+            </ul>
+        </section>
+        <section class="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
